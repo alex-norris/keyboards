@@ -1,5 +1,7 @@
 /*
+plug in only left hand, put in prog mode then run:
 make ergodox_infinity:alex-norris:dfu-util
+unplug left, plug in right put in prog mode then run:
 make ergodox_infinity:alex-norris:dfu-util MASTER=right
 */
 
