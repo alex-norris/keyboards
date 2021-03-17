@@ -45,9 +45,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 	[NROW] = LAYOUT_gergo(
     KC_TRNS, KC_EXLM,     KC_AT,       KC_HASH,     KC_DLR,      KC_PERC,                                     KC_CIRC,KC_AMPR,     KC_ASTR,     KC_LPRN,     KC_RPRN,     KC_TRNS, 
-    KC_TRNS, LGUI_T(KC_1),LALT_T(KC_2),LCTL_T(KC_3),LSFT_T(KC_4),KC_5,  KC_F11,                       KC_F12, KC_6,   RSFT_T(KC_7),RCTL_T(KC_8),RALT_T(KC_9),RGUI_T(KC_0),KC_TRNS,
-    KC_TRNS, KC_F1,       KC_F2,       KC_F3,       KC_F4,       KC_F5, KC_TRNS, KC_TRNS,    KC_TRNS, KC_TRNS,KC_F6,  KC_F7,       KC_F8,       KC_F9,       KC_F10,      KC_TRNS,
-                KC_TRNS, KC_TRNS, KC_TRNS, KC_DOT,                                                       KC_TRNS, KC_MUTE, KC_VOLD, KC_VOLU
+    KC_TRNS, LGUI_T(KC_1),LALT_T(KC_2),LCTL_T(KC_3),LSFT_T(KC_4),KC_5,  KC_F11,                       KC_VOLU, KC_6,   RSFT_T(KC_7),RCTL_T(KC_8),RALT_T(KC_9),RGUI_T(KC_0),KC_TRNS,
+    KC_TRNS, KC_F1,       KC_F2,       KC_F3,       KC_F4,       KC_F5, KC_F12, KC_TRNS,    KC_MPLY, KC_VOLD,KC_F6,  KC_F7,       KC_F8,       KC_F9,       KC_F10,      KC_TRNS,
+                KC_TRNS, KC_TRNS, KC_TRNS, KC_DOT,                                                       KC_TRNS, KC_MUTE, KC_MPRV, KC_MNXT
     ),
 	[GAME] = LAYOUT_gergo(
     KC_TAB,  KC_Q, KC_W, KC_E, KC_R, KC_T,                                   KC_Y, KC_U, KC_I,    KC_O,  KC_P,    KC_BSLS, 
